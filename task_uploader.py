@@ -13,7 +13,11 @@ cols_to_drop = ['base_dockerfile',
        'fail_to_pass_select', 'pass_to_pass_select', 'fail_to_pass_full',
        'pass_to_pass_full', 'evaluation_time', 'tar_cds']
 
+
+# raw_name : taxo_name
+
 column_mapping = {
+       
     "pr_url": "url_pr",
     "pr_message": "initial_problem_statement",
     "gold_patch_summary": "golden_patch",
