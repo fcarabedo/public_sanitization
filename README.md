@@ -12,5 +12,7 @@
 
 - Backcfillear cualuquier dato faltante del csv de andrew a la plataforma
       - Columnas de andrew son diferentes a las de la taxo
-
+  la columna de la taxo A tiene missing values que estan en la columna B de andrew
+  rename B a A y update
+      - Todo el mapeo tiene que estar en el formatter.
 Sendeamos a task bank las que no esten en el banco y por ultimo deliveramos del task bank al customer (test@scale)
